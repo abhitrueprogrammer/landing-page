@@ -70,12 +70,14 @@ html, body
 }
 .header-flexitem
 {
+    flex: 1;
     padding-right: 8rem;
     padding-left: 8rem;
 }
 .header-image
 {
     height: 20rem;
+    margin: 1rem;
 }
 .main-text
 {
@@ -86,6 +88,8 @@ html, body
 .header-flexbox
 {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -157,6 +161,7 @@ a
 .small-infos
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .small-info
@@ -189,7 +194,7 @@ a
 .quote-text
 {
     font-size:36px;
-    width: 50rem;
+    /* width: 50rem; */
     text-align: left;
     color: #1F2937;
     font-style: italic;
